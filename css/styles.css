@@ -1,9 +1,14 @@
-<!-- :root {
---primary-brand-blue: #4D5AE5;
---pressed-brand-blue: #404BBF;
---headings-color #2E2F42;
---primary-text-color: #434455;
---secondary-text-color: #2E2F42; 
---white-text-color: #ffffff;
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #18a0fb;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: #f4f4fd;
+  --primary-blue-color: #4d5ae5;
+  --hero-banner-color: #2e2f42;
+  --hero-text-color: #ffffff;
+  --footer-color: #2e2f42;
+  --our-team-background: #f4f4fd;
+  --background-cards-our-services: #e7e9fc;
+  --header-color: #e7e9fc;
 }
--->
