@@ -1,14 +1,76 @@
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
+  --main-text-color: #434455;
   --accent-color: #18a0fb;
+  --pressed-color: #404bbf;
   --primary-white-color: #ffffff;
   --secondary-white-color: #f4f4fd;
   --primary-blue-color: #4d5ae5;
-  --hero-banner-color: #2e2f42;
-  --hero-text-color: #ffffff;
-  --footer-color: #2e2f42;
+  --hero-banner-color: rgba(46, 47, 66, 0.7);
+  --hero-text-color: rgba(255, 255, 255, 1);
+  --footer-color: rgba(46, 47, 66, 1);
+  --footer-text-color: rgba(244, 244, 253, 1);
   --our-team-background: #f4f4fd;
   --background-cards-our-services: #e7e9fc;
   --header-color: #e7e9fc;
+  --body-background: #ffffff;
+}
+
+/*Тіло та основний шрифт*/
+
+body {
+  background-color: var(--body-background);
+  color: var(--main-text-color);
+}
+
+/*Логотип в хедері*/
+.logo-blue {
+  color: var(--primary-blue-color);
+}
+
+/*Меню-навігація*/
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--pressed-color);
+}
+
+.site-nav .link-current {
+  color: var(--title-text-color);
+}
+/*Контакти в хедері*/
+.header-adress .adress-link {
+  color: var(--main-text-color);
+}
+
+.header-adress .adress-link:hover,
+.header-adress .adress-link:focus {
+  color: var(--pressed-color);
+}
+
+/*Герой*/
+.hero {
+  background-color: var(--hero-banner-color);
+}
+
+.hero .hero-text {
+  color: var(--hero-text-color);
+}
+.button-primary {
+  color: var(--hero-text-color);
+  background-color: var(--primary-blue-color);
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--hero-text-color);
+  background-color: var(--pressed-color);
+}
+/*Цінності*/
+
+.our-values .name-value {
+  color: var(--title-text-color);
 }
