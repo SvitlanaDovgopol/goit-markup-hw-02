@@ -17,8 +17,35 @@
   --body-background: #ffffff;
 }
 
-/* Body section*/
+/* Body*/
 body {
-background-color:var(--body-background) ;
-color: var(--main-text-color);
+  background-color: var(--body-background);
+  color: var(--main-text-color);
+}
+
+/*Header section*/
+.header {
+}
+.logo-link {
+}
+.logo-blue {
+  color: var(--primary-blue-color);
+}
+.header-list {
+}
+.header-list-item {
+}
+.auth-nav {
+}
+.auth-nav-item {
+}
+
+/*Hero section*/
+.hero {
+  background-color: var(--hero-banner-color);
+}
+.hero-title {
+  color: var(--hero-text-color);
+}
+.hero-button {
 }
