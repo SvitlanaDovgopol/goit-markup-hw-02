@@ -10,7 +10,7 @@
   --hero-banner-color: rgba(46, 47, 66, 0.7);
   --hero-text-color: rgba(255, 255, 255, 1);
   --footer-color: rgba(46, 47, 66, 1);
-  --footer-text-color: rgba(244, 244, 253, 1);
+  --footer-text-color: #F4F4FD;
   --our-team-background: #f4f4fd;
   --background-cards-our-services: #e7e9fc;
   --header-color: #e7e9fc;
@@ -25,6 +25,7 @@ body {
 
 /*Header section*/
 .header {
+  background-color: var(--body-background);
 }
 .logo-link {
 }
@@ -32,11 +33,13 @@ body {
   color: var(--primary-blue-color);
 }
 .header-list {
+  color: var(--title-text-color);
 }
 .header-list-item {
 }
 .auth-nav {
 }
+
 .auth-nav-item {
 }
 
@@ -47,5 +50,13 @@ body {
 .hero-title {
   color: var(--hero-text-color);
 }
-.hero-button {
+.hero-button:active {
+  
+}
+
+
+/*Footer section*/
+.footer {
+  background-color: var(--footer-color);
+  color: var(--footer-text-color);
 }
