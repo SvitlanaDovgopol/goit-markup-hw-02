@@ -44,6 +44,10 @@ body {
   color: var(--primary-blue-color);
 }
 
+.menu-link-current{
+  color: var(--pressed-color);
+  text-decoration: none;
+}
 .menu-link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -56,9 +60,7 @@ body {
 .menu-link:hover {
   color: var(--pressed-color);
 }
-.current-block {
-  color: var(--pressed-color);
-}
+
 
 .contact-detail {
   color: var(--primary-text-color);
