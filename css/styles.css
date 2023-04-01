@@ -34,8 +34,17 @@ body {
   color: var(--title-text-color);
 }
 
-.auth-nav {
+.current-block {
+  color: var(--pressed-color);
+}
+
+.auth-contact {
   color: var(--primary-text-color);
+}
+
+.auth-contact:focus,
+.auth-contact:hover {
+  color: var(--pressed-color);
 }
 
 /*Hero section*/
