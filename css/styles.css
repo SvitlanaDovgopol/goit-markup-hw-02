@@ -1,16 +1,15 @@
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
-  --main-text-color: #434455;
   --accent-color: #18a0fb;
   --pressed-color: #404bbf;
   --primary-white-color: #ffffff;
   --secondary-white-color: #f4f4fd;
   --primary-blue-color: #4d5ae5;
   --hero-banner-color: rgba(46, 47, 66, 0.7);
-  --hero-text-color: rgba(255, 255, 255, 1);
+  --hero-text-color: #ffffff;
   --footer-color: rgba(46, 47, 66, 1);
-  --footer-text-color: #F4F4FD;
+  --footer-text-color: #f4f4fd;
   --our-team-background: #f4f4fd;
   --background-cards-our-services: #e7e9fc;
   --header-color: #e7e9fc;
@@ -20,43 +19,104 @@
 /* Body*/
 body {
   background-color: var(--body-background);
-  color: var(--main-text-color);
+  color: var(--primary-text-color);
 }
 
 /*Header section*/
 .header {
   background-color: var(--body-background);
 }
-.logo-link {
-}
+
 .logo-blue {
   color: var(--primary-blue-color);
 }
 .header-list {
   color: var(--title-text-color);
 }
-.header-list-item {
-}
-.auth-nav {
-}
 
-.auth-nav-item {
+.auth-nav {
+  color: var(--primary-text-color);
 }
 
 /*Hero section*/
 .hero {
   background-color: var(--hero-banner-color);
+  color: var(--primary-white-color);
 }
 .hero-title {
   color: var(--hero-text-color);
 }
-.hero-button:active {
-  
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--primary-blue-color);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--pressed-color);
+}
+
+/* Values*/
+
+.values-title {
+  color: var(--title-text-color);
+}
+.values-text {
+  color: var(--primary-text-color);
+}
+
+/*Our services section*/
+
+.services-title {
+  color: var(--title-text-color);
+}
+
+/*Our team*/
+.team {
+  background-color: var(--our-team-background);
+}
+.team-title {
+  color: var(--title-text-color);
+}
+
+.team-item {
+  background-color: var(--primary-white-color);
+}
+
+.team-player {
+  color: var(--title-text-color);
+}
 
 /*Footer section*/
 .footer {
   background-color: var(--footer-color);
-  color: var(--footer-text-color);
+  color: var(--secondary-white-color);
+}
+.logo-footer {
+  color: var(--secondary-white-color);
+}
+
+/*Portfolio page*/
+
+/*Filter and portfolio*/
+
+.categories-button {
+  color: var(--primary-blue-color);
+  border: var(--background-cards-our-services);
+  background-color: var(--secondary-white-color);
+}
+
+.categories-button:hover,
+.categories-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--pressed-color);
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+}
+.portfolio-item {
+  border: var(--background-cards-our-services);
+  background-color: var(--primary-white-color);
 }
