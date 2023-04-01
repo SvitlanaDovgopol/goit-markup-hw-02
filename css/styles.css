@@ -38,6 +38,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: var(--title-text-color);
 }
 
 .logo-blue {
