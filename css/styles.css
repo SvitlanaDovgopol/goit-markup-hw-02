@@ -30,7 +30,7 @@ body {
   background-color: var(--body-background);
 }
 
-.header-logo-link {
+.header .link {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -45,20 +45,7 @@ body {
   color: var(--title-text-color);
 }
 
-.menu-link-current {
-  color: var(--pressed-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-decoration: none;
-}
-
-.menu-link-current:focus,
-.menu-link-current:hover {
-  color: var(--pressed-color);
-}
-
-.menu-link {
+.header .list-link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -66,8 +53,20 @@ body {
   text-decoration: none;
 }
 
-.menu-link:focus,
-.menu-link:hover {
+.header .list-link:focus,
+.header .list-link:hover {
+  color: var(--pressed-color);
+}
+.header .list-link-current {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.header .list-link-current:focus,
+.header .list-link-current:hover {
   color: var(--pressed-color);
 }
 
@@ -208,6 +207,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer
 }
 
 .categories-button:hover,
@@ -221,6 +221,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-category {
