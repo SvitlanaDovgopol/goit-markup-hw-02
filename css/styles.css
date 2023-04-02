@@ -30,7 +30,7 @@ body {
   background-color: var(--body-background);
 }
 
-.logo {
+.header-logo-link {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -38,17 +38,26 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--title-text-color);
-}
-
-.logo-blue {
   color: var(--primary-blue-color);
 }
 
-.menu-link-current{
+.logo-black {
+  color: var(--title-text-color);
+}
+
+.menu-link-current {
   color: var(--pressed-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   text-decoration: none;
 }
+
+.menu-link-current:focus,
+.menu-link-current:hover {
+  color: var(--pressed-color);
+}
+
 .menu-link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -62,6 +71,9 @@ body {
   color: var(--pressed-color);
 }
 
+.contact {
+  font-style: normal;
+}
 
 .contact-detail {
   color: var(--primary-text-color);
@@ -78,7 +90,7 @@ body {
 
 /*Hero section*/
 .hero {
-  background-color: var(--hero-banner-color);
+  background-color: var(--footer-color);
   color: var(--primary-white-color);
 }
 .hero-title {
@@ -87,6 +99,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   color: var(--primary-white-color);
@@ -97,6 +110,7 @@ body {
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -107,11 +121,12 @@ body {
 
 /* Values*/
 
-.values-title {
+.value-name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .values-text {
   color: var(--primary-text-color);
@@ -126,7 +141,7 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
 }
@@ -139,9 +154,10 @@ body {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 .team-item {
