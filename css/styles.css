@@ -30,7 +30,7 @@ body {
   background-color: var(--body-background);
 }
 
-.header .link {
+.header .link-logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -45,7 +45,7 @@ body {
   color: var(--title-text-color);
 }
 
-.header .list-link {
+.header .list .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -53,11 +53,11 @@ body {
   text-decoration: none;
 }
 
-.header .list-link:focus,
-.header .list-link:hover {
+.header .list .link:focus,
+.header .list .link:hover {
   color: var(--pressed-color);
 }
-.header .list-link-current {
+.header .list .link-current {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -65,8 +65,8 @@ body {
   text-decoration: none;
 }
 
-.header .list-link-current:focus,
-.header .list-link-current:hover {
+.header .list .link-current:focus,
+.header .list .link-current:hover {
   color: var(--pressed-color);
 }
 
@@ -74,7 +74,7 @@ body {
   font-style: normal;
 }
 
-.contact-detail {
+.contact .detail {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -82,8 +82,8 @@ body {
   text-decoration: none;
 }
 
-.contact-detail:focus,
-.contact-detail:hover {
+.contact .detail:focus,
+.contact .detail:hover {
   color: var(--pressed-color);
 }
 
@@ -170,6 +170,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.02em;  
 }
 
 .team-position {
@@ -189,16 +190,8 @@ body {
 }
 
 .footer .link {
-  font-family: Raleway, sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
-  color: var(--primary-blue-color);
 }
-
 .logo-footer {
   color: var(--secondary-white-color);
 }
