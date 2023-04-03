@@ -45,7 +45,7 @@ body {
   color: var(--title-text-color);
 }
 
-.header .list .link {
+.site-nav-list .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -53,28 +53,28 @@ body {
   text-decoration: none;
 }
 
-.header .list .link:focus,
-.header .list .link:hover {
+.site-nav-list .link:focus,
+.site-nav-list .link:hover {
   color: var(--pressed-color);
 }
-.header .list .link-current {
+.site-nav-list .link-current {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
 }
-
-.header .list .link-current:focus,
-.header .list .link-current:hover {
+.site-nav-list .link-current:focus,
+.site-nav-list .link-current:hover {
   color: var(--pressed-color);
 }
 
-.contact {
+.auth-nav-list {
   font-style: normal;
+  text-decoration: none;
 }
 
-.contact .detail {
+.auth-nav-list .channel {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -82,8 +82,8 @@ body {
   text-decoration: none;
 }
 
-.contact .detail:focus,
-.contact .detail:hover {
+.auth-nav-list .channel:focus,
+.auth-nav-list .channel:hover {
   color: var(--pressed-color);
 }
 
