@@ -61,17 +61,6 @@ body {
 .site-nav .link:hover {
   color: var(--pressed-color);
 }
-.site-nav .link .current {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-decoration: none;
-}
-.site-nav .link .current:focus,
-.site-nav .link .current:hover {
-  color: var(--pressed-color);
-}
 
 .auth-nav {
   font-style: normal;
