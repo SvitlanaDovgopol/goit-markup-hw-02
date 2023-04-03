@@ -30,7 +30,7 @@ body {
   background-color: var(--body-background);
 }
 
-.header .logo-link {
+.logo-link {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -45,7 +45,7 @@ body {
   color: var(--title-text-color);
 }
 
-.site-nav-list .link {
+.site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -53,37 +53,33 @@ body {
   text-decoration: none;
 }
 
-.site-nav-list .link:focus,
-.site-nav-list .link:hover {
+.site-nav .link:focus,
+.site-nav .link:hover {
   color: var(--pressed-color);
 }
-.site-nav-list .link-current {
+.site-nav .link .current {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
 }
-.site-nav-list .link-current:focus,
-.site-nav-list .link-current:hover {
+.site-nav .link .current:focus,
+.site-nav .link .current:hover {
   color: var(--pressed-color);
 }
 
-.auth-nav-list {
-  font-style: normal;
-  text-decoration: none;
-}
-
-.auth-nav-list .channel {
+.auth-nav .list .link {
   color: var(--primary-text-color);
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
 }
 
-.auth-nav-list .channel:focus,
-.auth-nav-list .channel:hover {
+.auth-nav .list .link:focus,
+.auth-nav .list .link:hover {
   color: var(--pressed-color);
 }
 
